@@ -40,6 +40,10 @@ body{
 .site-nav .link:focus {
     color: #212121;
 }
+.site-nav .link.current {
+    color: var(--title-text-color);
+}
+
 .section-first, .section-second, .section-third {
     color: var(--title-text-color);
 }
@@ -57,6 +61,12 @@ body{
 }
 .feature-text {
     color: var(--small-text-color);
+}
+
+/* кнопка */
+.button {
+    background-color: var(--accent-color);
+    color: var(--primary-text-color)
 }
    
 
