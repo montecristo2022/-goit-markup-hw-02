@@ -1,3 +1,69 @@
-.WebStudio {
-color: red;
+:root {
+    --primary-text-color: #FFFFFF;
+ --title-text-color: #212121;
+ --accent-color: #2196F3;
+ --small-text-color: #757575
+
+
 }
+
+body{
+    color: #212121;
+    background-color: #FFFFFF;
+}
+
+.webstudio {
+    color: var(--title-text-color);
+}
+/* снизу вроде убрать */
+.webstudio {
+    color: var(--accent-color)
+}
+/* хедер и бекграунд калор убрать вроде */
+.header {
+    background-color: var(--primary-text-color);
+}
+/* site-nav */
+.site-nav .link {
+    color: var(--title-text-color);
+}
+/* контакт-нав */
+.contact-link
+{
+    color: var(--small-text-color);
+}
+/* снизу вроде убрать */
+.site-nav .link:hover {
+    color: var(--title-text-color);
+}
+/* снизу вроде убрать */
+.site-nav .link:focus {
+    color: #212121;
+}
+.section-first, .section-second, .section-third {
+    color: var(--title-text-color);
+}
+
+.section-title {
+    color: var(--title-text-color);
+}
+.hero-title {
+    color: var(--title-text-color)
+}
+
+/* features */
+.feature-list .feature-title {
+    color: var(--title-text-color);
+}
+.feature-text {
+    color: var(--small-text-color);
+}
+   
+
+/* весь маленький текст #757575 */
+/* весь жирный текст при копировании еще написано background #212121;  */
+/* цвет лого синяя часть. где черная не ясно #2196F3 */
+/* цвет кнопки с услугами (акцент) #2196F3 */
+/* цвет футера #2F303A */
+/* цвет за сотрудникам background: #F5F4FA; */
+/* цвет  рядом с кнопкой услуг background: #2F303A; */
