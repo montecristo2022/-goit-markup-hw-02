@@ -72,6 +72,12 @@ body{
     background-color: var(--accent-color);
     color: var(--primary-text-color);
 }
+.portfolio-title {
+ color: var(--title-text-color);
+}
+.portfolio-text {
+    color: var(--small-text-color);
+}
    
 
 /* весь маленький текст #757575 */
