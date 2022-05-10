@@ -126,9 +126,25 @@ font-weight: 900;
 
 }
 .portfolio-button {
-    background-color: var(--accent-color);
-    color: var(--primary-text-color);
+    color: #FFFFFF;
+        background-color: var(--accent-color);
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;
+        text-align: center;
+        letter-spacing: 0.03em;
 }
+.portfolio-button:hover{
+        color: #FFFFFF;
+            background-color: var(--accent-color);
+}
+.portfolio-button:focus{
+        color: #FFFFFF;
+            background-color: var(--accent-color);
+}
+
 .portfolio-title {
  color: var(--title-text-color);
 }
@@ -151,6 +167,7 @@ font-weight: 500;
         line-height: 1.18;  
         text-align: center;
 }
+
 
    
 /* лого шрифт Raleway вес 700*/
