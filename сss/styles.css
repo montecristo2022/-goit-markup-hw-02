@@ -135,8 +135,8 @@ font-weight: 900;
 
 }
 .portfolio-button {
-    color: #FFFFFF;
-        background-color: var(--accent-color);
+    color: var(--small-text-color);
+        background-color: #F5F4FA;
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 500;
@@ -156,6 +156,8 @@ font-weight: 900;
 
 .portfolio-title {
  color: var(--title-text-color);
+font-size: 18px;
+    line-height: 2;
 }
 .portfolio-text {
     color: var(--small-text-color);
@@ -185,6 +187,16 @@ font-weight: 500;
 .footer-nav-adress{
     color: #FFFFFF;
 }
+
+.nav-link {
+    color: var(--accent-color);
+}
+
+.currently-active {
+    color: #FFFFFF;
+        background-color: var(--accent-color)
+}
+
 
 
    
