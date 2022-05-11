@@ -1,8 +1,11 @@
 :root {
+ 
     --primary-text-color: #FFFFFF;
  --title-text-color: #212121;
  --accent-color: #2196F3;
- --small-text-color: #757575
+ --small-text-color: #757575;
+--background-color: #2F303A;
+
 
 
 }
@@ -78,7 +81,12 @@ font-weight: 500;
 
 }
 
+.hero {
+    background-color: var(--background-color);
+}
+
 .hero-title {
+  
 font-weight: 900;
         font-size: 44px;
         line-height: 1.36;
@@ -86,6 +94,7 @@ font-weight: 900;
         text-transform: uppercase;
         letter-spacing: 0.06em
     color: var(--title-text-color)
+    
   
  
 
@@ -107,10 +116,6 @@ font-weight: 900;
 .feature-text {
     color: var(--small-text-color);
 
-    font-style: normal;
-
-        font-size: 14px;
-        line-height: 1.71;
 
 }
 
@@ -159,13 +164,18 @@ font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
+    color: var(--small-text-color);
 }
 
 .workers-text {
-    font-weight: 400;
+ 
         font-size: 16px;
         line-height: 1.18;  
         text-align: center;
+}
+
+.footer {
+    background-color: var(--background-color);
 }
 
 
