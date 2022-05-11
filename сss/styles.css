@@ -15,13 +15,27 @@ body{
     background-color: var(--primary-text-color);
 
     font-family: Roboto, sans-serif;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.03em;
     font-size: 14px;
     line-height: 1.71;
+
 }
 
-.webstudio {
+.section-title {
     color: var(--title-text-color);
+
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+
+
+
+
+.logo {
+   color: var(--accent-color);
     font-family: Raleway, sans-serif;
         font-weight: 700;
         font-size: 26px;
@@ -83,19 +97,13 @@ font-weight: 500;
 
 .section-first, .section-second, .section-third {
     color: var(--title-text-color);
+ 
 
 }
 
-.section-title {
-    color: var(--title-text-color);
 
 
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
 
-}
 
 .hero {
     background-color: var(--background-color);
@@ -108,7 +116,7 @@ font-weight: 900;
         line-height: 1.36;
         text-align: center;
         text-transform: uppercase;
-        letter-spacing: 0.06em
+        letter-spacing: 0.06em;
     color: var(--title-text-color)
     
   
@@ -120,8 +128,9 @@ font-weight: 900;
 
 
 /* features */
-.feature-list .feature-title {
+.feature-list, .feature-title {
     color: var(--title-text-color);
+    list-style: none;
    
 
     font-size: 14px;
@@ -186,6 +195,7 @@ font-weight: 500;
     line-height: 1.18;
     text-align: center;
     color: var(--small-text-color);
+    list-style: none;
 }
 
 .workers-text {
@@ -204,7 +214,7 @@ font-weight: 500;
 }
 
 .nav-link {
-    color: var(--accent-color);
+    color: var(--title-text-color);
 }
 
 .currently-active {
@@ -212,6 +222,28 @@ font-weight: 500;
         background-color: var(--accent-color)
 }
 
+.footer .logo .accent {
+    color: #FFFFFF;
+}
+
+.site-nav .nav-link:hover,
+.contact-nav .contact-link:hover,
+.footer .contact-link:hover
+/* .site-nav .nav-link:focus,
+.contact-nav .contact-link:focus,
+.footer .contact-link:focus  
+почему не работает фокус*/
+
+{
+    color: var(--accent-color);
+}
+
+.pictures {
+    list-style: none;
+}
+.footer-contact {
+    list-style: none;
+}
 
 
 
