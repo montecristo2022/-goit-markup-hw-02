@@ -33,6 +33,10 @@ body{
 .webstudio {
     color: var(--accent-color)
 }
+
+.accent{
+  color: #000000;  
+}
 /* хедер и бекграунд калор убрать вроде */
 .header {
     background-color: var(--primary-text-color);
@@ -176,6 +180,10 @@ font-weight: 500;
 
 .footer {
     background-color: var(--background-color);
+}
+
+.footer-nav-adress{
+    color: #FFFFFF;
 }
 
 
