@@ -194,12 +194,12 @@ font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
-    color: var(--small-text-color);
+    color: var(--title-text-color);
     list-style: none;
 }
 
 .workers-text {
- 
+ color: var(--small-text-color);
         font-size: 16px;
         line-height: 1.18;  
         text-align: center;
@@ -248,6 +248,9 @@ font-weight: 500;
 }
 
 .nav-link {
+    text-decoration: none;
+}
+.footer-nav-adress {
     text-decoration: none;
 }
 
