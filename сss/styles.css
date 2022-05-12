@@ -74,10 +74,10 @@ font-weight: 500;
         line-height: 1.15px;
         letter-spacing: 0.02em
         
-
-   
  
 }
+
+
 /* контакт-нав */
 .contact-link
 {
@@ -226,6 +226,8 @@ font-weight: 500;
     color: #FFFFFF;
 }
 
+
+
 .site-nav .nav-link:hover,
 .contact-nav .contact-link:hover,
 .footer .contact-link:hover
@@ -243,6 +245,10 @@ font-weight: 500;
 }
 .footer-contact {
     list-style: none;
+}
+
+.nav-link {
+    text-decoration: none;
 }
 
 
