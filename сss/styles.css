@@ -216,19 +216,19 @@ font-weight: 500;
 }
 
 .footer-nav-adress {
-    color: #FFFFFF;
+    color: var(--primary-text-color);
     font-style: normal;
 }
 
 
 
 .currently-active {
-    color: #FFFFFF;
+    color: var(--primary-text-color);
         background-color: var(--accent-color)
 }
 
 .footer .logo .accent {
-    color: #FFFFFF;
+    color: var(--primary-text-color);
 }
 
 
