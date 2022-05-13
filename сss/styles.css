@@ -31,6 +31,13 @@ body{
     text-align: center;
 }
 
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
 
 
 
@@ -48,15 +55,13 @@ body{
     color: var(--accent-color)
 }
 
-.list {
-    list-style: none;
-}
+
+
+
 
 
 /* снизу вроде убрать */
-.site-nav .link:focus {
-    color: #212121;
-}
+
 
 .accent{
   color: #000000;  
@@ -65,12 +70,18 @@ body{
 .header {
     background-color: var(--primary-text-color);
 }
+
+.current {
+    color: var(--accent-color);
+}
+
 /* site-nav */
-.site-nav .link {
+.nav-link,
+.contact-link {
 color: var(--title-text-color);
-        text-decoration: none;
+
 font-weight: 500;
-        font-size: 14px;
+     
         line-height: 1.15px;
         letter-spacing: 0.02em
         
@@ -78,22 +89,26 @@ font-weight: 500;
 }
 
 
+
 /* контакт-нав */
 .contact-link
 {
     color: var(--small-text-color);
-    text-decoration: none;
+    
         
 }
+
+.nav-link:hover,
+.nav-link:focus,
+.contact-link:hover,
+.contact-link:focus,
+.footer .contact-link:hover,
+.footer .contact-link:focus,
+.current {
+color: var(--accent-color);
+}
 /* снизу вроде убрать */
-.site-nav .link:hover {
-    color: var(--title-text-color);
-}
 
-.site-nav .link.current {
-    color: var(--title-text-color);
-
-}
 
 .section-first, .section-second, .section-third {
     color: var(--title-text-color);
@@ -213,9 +228,7 @@ font-weight: 500;
     color: #FFFFFF;
 }
 
-.nav-link {
-    color: var(--title-text-color);
-}
+
 
 .currently-active {
     color: #FFFFFF;
@@ -228,17 +241,7 @@ font-weight: 500;
 
 
 
-.site-nav .nav-link:hover,
-.contact-nav .contact-link:hover,
-.footer .contact-link:hover
-/* .site-nav .nav-link:focus,
-.contact-nav .contact-link:focus,
-.footer .contact-link:focus  
-почему не работает фокус*/
 
-{
-    color: var(--accent-color);
-}
 
 .pictures {
     list-style: none;
@@ -247,9 +250,7 @@ font-weight: 500;
     list-style: none;
 }
 
-.nav-link {
-    text-decoration: none;
-}
+
 .footer-nav-adress {
     text-decoration: none;
 }
